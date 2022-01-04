@@ -1,2 +1,6 @@
 # saixiang
-weixin_program
+## This is a weixin_mini_program
+# usage
+'''
+$ npm install
+'''
