@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/details/details",
+    "pages/index/details/announcements/announcements",
+    "pages/index/details/data_query/data_query",
+    "pages/index/details/race_guide/race_guide",
+    "pages/index/details/teammate/teammate",
+    "pages/index/details/teammate/publish/publish",
+    "pages/index/details/teammate/audit/audit",
+    "pages/index/details/announcements/content/content",
+    "pages/community/community",
+    "pages/community/question/question",
+    "pages/community/article/article",
+    "pages/community/editarticle/editarticle",
+    "pages/message/message",
+    "pages/message/chat/chat",
+    "pages/user/user",
+    "pages/user/help/help",
+    "pages/user/setting/setting",
+    "pages/user/collection/collection",
+    "pages/user/history/history",
+    "pages/user/commit/commit",
+    "pages/user/mycompetition/mycompetition",
+    "pages/user/userinfo/userinfo",
+    "pages/user/userinfoedit/userinfoedit",
+    "pages/user/userinfoedit/department/department",
+    "pages/user/userinfoedit/name/name",
+    "pages/user/userinfoedit/phone/phone",
+    "pages/user/userinfoedit/school/school",
+    "pages/user/userinfoedit/sex/sex",
+    "pages/user/about/about",
+    "pages/user/about/log/log",
+    "pages/user/about/about/about",
+    "pages/share/share"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigati onBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "plugins": {
+    "htmltowxml": {
+      "version": "1.4.0",
+      "provider": "wxa51b9c855ae38f3c"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

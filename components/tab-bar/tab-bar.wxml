@@ -1,0 +1,7 @@
+<view class="cu-bar tabbar bg-white">
+  <view class="action text-gray" wx:for="{{list}}" wx:key="index" bindtap="onChange" data-path="{{item.pagePath}}" data-index="{{index}}">
+    <view wx:if="{{index==tab}}" class="cuIcon-{{item.selecticon}} text-blue"></view>
+    <view wx:else class="cuIcon-{{item.icon}}"></view>
+    {{item.text}}
+  </view>
+</view>
